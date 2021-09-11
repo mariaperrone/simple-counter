@@ -1,24 +1,22 @@
 import React from "react";
+import Clock from "./clock";
+import FirstNumber from "./firstnumber";
+import SecondNumber from "./secondnumber";
+import ThirdNumber from "./thirdnumber";
+import FourthNumber from "./fourthnumber";
+import FifthNumber from "./fifthnumber";
+import SixthNumber from "./sixthnumber";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
 const Home = () => {
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+		<div className="row">
+			<Clock className="col" />
+			<FirstNumber className="col" />
+			<SecondNumber className="col" />
+			<ThirdNumber className="col" />
+			<FourthNumber className="col" />
+			<FifthNumber className="col" />
+			<SixthNumber className="col" />
 		</div>
 	);
 };
