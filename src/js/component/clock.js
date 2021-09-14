@@ -2,10 +2,9 @@ import React from "react";
 
 const Clock = () => {
 	return (
-		<div>
-			<i className="far fa-clock"></i>
-			<p>Hola</p>
-		</div>
+		<h1>
+			<i className="far fa-clock text-light p-5 rounded"></i>
+		</h1>
 	);
 };
 
